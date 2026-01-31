@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+beautifulsoup4
+langchain
+openai
+chromadb
+streamlit
+streamlit-mic-recorder
+torch
+
+# Required by FastAPI for form/file uploads
+python-multipart
+
+# Note: `nemo_toolkit[all]` is excluded here because it requires heavy native
+# build tools and is often installed via conda on Linux/GPU machines. If you
+# need NeMo locally, install it separately following NeMo docs.

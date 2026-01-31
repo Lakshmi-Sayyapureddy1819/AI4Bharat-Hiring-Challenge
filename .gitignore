@@ -1,0 +1,10 @@
+__pycache__/
+.env
+data/
+data/chroma_db/
+venv/
+*.pyc
+*.pkl
+dist/
+build/
+.pytest_cache/

@@ -29,7 +29,7 @@ def _load_nemo_model(path: str):
 
 
 @app.post("/transcribe")
-async def transcribe(file: UploadFile = File(...), lang_id: str = "hi"):
+async def transcribe(file: UploadFile = File(...), lang_id: str = "en"):
     """Transcribes uploaded audio using a configured ASR backend.
 
     Behavior:
